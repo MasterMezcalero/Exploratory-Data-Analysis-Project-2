@@ -28,7 +28,7 @@ TotalEmissions <- CombinedData %>%
 
 g <- ggplot(TotalEmissions, aes(x = factor(year), y = Total)) +
   geom_bar(stat = "identity") +
-  labs(x = "Year", y = "Emissions (tons)", title = "Total Cocal Combustion Emissions (tons)")
+  labs(x = "Year", y = "Emissions (tons)", title = "Total Coal Combustion Emissions (tons)")
 
 print(g)
 
